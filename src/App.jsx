@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-<h1>If you hard work. you can??</h1>
+<h1  className='text-5xl bg-indigo-600'>If you hard work. you can success in life.</h1>
 
     </>
   )
