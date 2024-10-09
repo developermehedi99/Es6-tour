@@ -1,6 +1,7 @@
 import "./App.css";
 import Actors from "./components/Actors";
 import Counter from "./components/Counter";
+import Posts from "./components/Posts";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Actors name={"taj"} age={45}></Actors>
       <Actors name={"Manna"} age={45}></Actors>
       <Counter></Counter>
+      <Posts></Posts>
     </>
   );
 }
